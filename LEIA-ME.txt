@@ -1,0 +1,26 @@
+NEURODATIA — SITE INSTITUCIONAL E POLÍTICA DE PRIVACIDADE
+
+ENTREGA: site estático pronto para hospedagem (HTML/CSS), sem backend e sem chaves API.
+
+ANTES DE PUBLICAR COMO POLÍTICA OFICIAL
+1. Abra privacidade.html e termos.html em um editor de texto.
+2. Substitua TODOS os campos [ENTRE COLCHETES] por informações confirmadas.
+3. Revise quais dados são realmente coletados e como o NeurodatIA usa dados das APIs Google e provedores de IA.
+4. A política precisa representar práticas reais; não declare salvaguardas que ainda não existem.
+5. É prudente revisão jurídica, especialmente por envolver dados de estudantes, laudos e informações de saúde.
+
+PUBLICAR VIA GITHUB PAGES
+1. Crie um repositório público no GitHub (por exemplo: neurodatia-site).
+2. Descompacte e envie index.html, privacidade.html, termos.html, style.css e .nojekyll NA RAIZ.
+3. Em Settings > Pages, selecione Deploy from a branch, branch main, pasta /(root), Save.
+4. A URL será similar a https://SEU-USUARIO.github.io/neurodatia-site/ (NÃO use como link antes de verificar a URL real).
+5. URLs de Google Cloud: página inicial = URL do site; política = URL do site + privacidade.html; termos = URL do site + termos.html.
+6. Para verificação OAuth, o Google normalmente exige domínio de sua propriedade verificado no Search Console. Considere conectar um domínio próprio que você controle; github.io compartilhado pode não satisfazer este requisito.
+7. Sites publicados com políticas não resolvem automaticamente restrições impostas por administradores de contas Google Workspace.
+
+REFERÊNCIAS OFICIAIS
+https://support.google.com/cloud/answer/13464321?hl=en
+https://developers.google.com/identity/verification/authentication-policy-compliance
+https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+
+O site entregue NÃO configura OAuth, NÃO altera o projeto Google e NÃO libera contas bloqueadas.
