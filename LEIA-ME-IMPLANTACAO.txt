@@ -1,0 +1,26 @@
+NEURODATIA — SITE COMERCIAL | Versão 1
+
+PUBLICAÇÃO NO REPOSITÓRIO https://github.com/zeckascencio/Neurod-tia
+1. Faça backup dos arquivos index.html e style.css atuais.
+2. Envie os três arquivos deste pacote para a RAIZ da branch main:
+   index.html, style.css, app.js
+3. NÃO exclua os arquivos existentes privacidade.html, termos.html,
+   googled9f7fd45c3385715.html nem a pasta assets.
+4. Aguarde o GitHub Pages publicar e abra https://zeckascencio.github.io/Neurod-tia/
+5. Teste a navegação mobile, formulário de contato e links legais.
+
+CONTATO
+Atualmente configurado para zeckyma@gmail.com conforme o site publicado.
+O formulário usa mailto: e NÃO salva leads em banco de dados.
+O visitante precisa revisar e ENVIAR a mensagem no seu aplicativo de e-mail.
+Há alternativa para copiar a mensagem caso o mailto não esteja configurado.
+Para leads automáticos será necessária uma integração segura, com consentimento,
+política de privacidade atualizada, antispam e armazenamento adequado.
+
+IMPORTANTE
+- A página não afirma que recursos em desenvolvimento já estão disponíveis.
+- A privacidade e os termos existentes devem ser revisados antes de usar a página comercial.
+- Não publique dados reais de alunos nem prints contendo dados identificáveis.
+- Não há preços, depoimentos, resultados ou certificações inventadas.
+- Contém metadados de compartilhamento, layout responsivo e parâmetros UTM na mensagem.
+- O HTML de demonstração é ilustrativo; não é um acesso à plataforma.
