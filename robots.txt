@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /experience/
+Sitemap: https://zeckascencio.github.io/sitevendaneurodatia/sitemap.xml
