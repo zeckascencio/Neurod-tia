@@ -1,2 +1,3 @@
-// Preencha um endereço de e-mail comercial real antes de publicar.
-window.NEURODATIA_EMAIL = '';
+// Contatos comerciais públicos do NeurodatIA.
+window.NEURODATIA_EMAIL = 'zeckyma@gmail.com';
+window.NEURODATIA_WHATSAPP = '5544988391239';

@@ -4,6 +4,16 @@ document.addEventListener('DOMContentLoaded',()=>{
   const audience=document.querySelector('#leadType');
   document.querySelectorAll('[data-select-audience]').forEach(el=>el.addEventListener('click',()=>{audience.value=el.dataset.selectAudience;}));
   const f=document.querySelector('#leadForm');const status=document.querySelector('#leadFeedback');
+  document.querySelector('#leadWhatsApp')?.addEventListener('click',()=>{
+    if(!f.checkValidity()){f.reportValidity();status.textContent='Preencha os campos obrigatórios para enviar sua solicitação.';return;}
+    const v=id=>document.querySelector('#'+id).value.trim();
+    const p=new URLSearchParams(location.search);
+    const track=['utm_source','utm_medium','utm_campaign'].map(k=>p.get(k)?k+': '+p.get(k):null).filter(Boolean).join(' | ');
+    const body=['Olá! Tenho interesse no NeurodatIA.','Nome: '+v('leadName'),'E-mail: '+v('leadEmail'),'Perfil: '+v('leadType'),'Instituição: '+(v('leadSchool')||'Não informada'),'Desafio: '+v('leadNeed'),'Mensagem: '+(v('leadMsg')||'Não informada'),track?'Origem: '+track:''].filter(Boolean).join('\n');
+    const phone=window.NEURODATIA_WHATSAPP||'5544988391239';
+    window.open('https://wa.me/'+phone+'?text='+encodeURIComponent(body),'_blank','noopener,noreferrer');
+    status.textContent='WhatsApp aberto com sua mensagem. Confira e toque em enviar para concluir.';
+  });
   f.addEventListener('submit',e=>{e.preventDefault();
     if(!f.checkValidity()){f.reportValidity();status.textContent='Preencha os campos obrigatórios para preparar sua solicitação.';return;}
     const v=id=>document.querySelector('#'+id).value.trim();
